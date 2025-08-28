@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilmInventoryUI", "FilmInve
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilmInventory.Business", "FilmInventory.Business\FilmInventory.Business.csproj", "{7FC5944D-66E7-46BF-98D6-93505E7634CB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilmInventory.Controller", "FilmInventory.Controller\FilmInventory.Controller.csproj", "{4A860C7C-F0A9-4C30-9557-7A994ACF5543}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{7FC5944D-66E7-46BF-98D6-93505E7634CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FC5944D-66E7-46BF-98D6-93505E7634CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FC5944D-66E7-46BF-98D6-93505E7634CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A860C7C-F0A9-4C30-9557-7A994ACF5543}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A860C7C-F0A9-4C30-9557-7A994ACF5543}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A860C7C-F0A9-4C30-9557-7A994ACF5543}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A860C7C-F0A9-4C30-9557-7A994ACF5543}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
