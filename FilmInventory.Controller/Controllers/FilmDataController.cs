@@ -5,32 +5,32 @@ namespace FilmInventory.Controller.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
-public class CameraController : ControllerBase
+public class FilmDataController : ControllerBase
 {
     public IActionResult GetAll()
     {
         return Ok();
     }
-    
-    [HttpGet("{id}")]
+
+    [HttpGet("id")]
     public IActionResult GetOne(int id)
     {
         return Ok();
     }
-    
+
     [HttpPost]
-    public IActionResult AddCamera([FromBody] Camera camera)
+    public IActionResult AddFilmData([FromBody] FilmData filmData)
+    {
+        return Ok();
+    }
+    
+    [HttpPut("id")]
+    public IActionResult Update(int id, [FromBody] FilmData filmData)
     {
         return Ok();
     }
 
-    [HttpPut("{id}")]
-    public IActionResult Edit(int id, [FromBody] Camera camera)
-    {
-        return Ok();
-    }
-
-    [HttpDelete("{id}")]
+    [HttpDelete("id")]
     public IActionResult Delete(int id)
     {
         return Ok();
